@@ -1,5 +1,9 @@
-# Legislacao aplicavel fornecida
+# Base normativa fornecida
 
-Inclua aqui os dispositivos legais que podem ser usados na minuta. O agente
-deve citar somente dispositivos presentes neste arquivo e nao inventar leis,
-artigos ou prazos.
+Nenhum dispositivo legal foi fornecido para este exercicio. Nao cite leis,
+artigos, precedentes ou prazos. A fundamentacao juridica deve permanecer
+marcada como pendente de indicacao e verificacao pelo advogado responsavel.
+
+Este limite e intencional: os fatos ficticios podem ser organizados em um
+rascunho de solicitacao de solucao amigavel, mas qualquer tese ou pedido que
+dependa de fundamento legal deve ser confirmado antes do uso.

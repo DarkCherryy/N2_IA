@@ -1,22 +1,27 @@
-# Protocolo do agente de redacao
+# Execucao de teste: coluna juridica
 
 ## Objetivo
-Descrever a tarefa de producao de um rascunho de coluna.
+Produzir um rascunho de coluna a partir do briefing ficticio em
+`apoio/briefing_ficticio.md`.
 
 ## Dados de entrada
-Indicar a ideia, a narrativa ou caso ficticio e o objetivo do texto.
+- `apoio/briefing_ficticio.md`
+- `apoio/guia_estilo_revista.md`
+- `apoio/colunas_anteriores_exemplo.md` (somente referencia de estilo)
 
 ## Instrucao ao agente
-[Escreva aqui a instrucao completa e exija o cumprimento de
-`apoio/guia_estilo_revista.md`.]
+Redija uma coluna com titulo, introducao, desenvolvimento, exemplo ficticio
+e conclusao, seguindo o guia editorial e o limite maximo de 1.500 caracteres.
+Nao formule tese juridica, nao cite leis e nao atribua posicao pessoal ao
+autor. Informe o total de caracteres e marque qualquer lacuna que exija
+revisao.
 
 ## Saida esperada
-Solicitar um rascunho completo, com titulo e secoes, dentro do limite de
-tamanho definido pela revista.
+Um rascunho em `saida/rascunhos/`, identificado como nao revisado.
 
 ## Excecoes e limites
-Sinalizar teses juridicas controvertidas sem atribui-las ao autor, nao incluir
-casos reais identificaveis e avisar se o limite de caracteres exigir cortes.
+Use somente as ideias e fatos do briefing. Nao envie nem apresente o texto
+como revisado ou aprovado.
 
 ## Revisao humana
-O advogado autor revisa o rascunho antes de qualquer envio a redacao.
+O advogado autor deve revisar e aprovar o rascunho antes de qualquer envio.
